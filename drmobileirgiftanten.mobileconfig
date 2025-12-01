@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>ConsentText</key>
+		<dict>
+			<key>default</key>
+			<string>لطفا ما رو رو دنبال کنید و به دوستانتون معرفی کنید</string>
+		</dict>
+		<key>PayloadContent</key>
+		<array>
+			<dict>
+				<key>AllowedProtocolMaskInDomesticRoaming</key>
+				<integer>1</integer>
+				<key>APNs</key>
+				<array>
+					<dict>
+						<key>AllowedProtocolMask</key>
+						<integer>1</integer>
+						<key>AllowedProtocolMaskInDomesticRoaming</key>
+						<integer>1</integer>
+						<key>AllowedProtocolMaskInRoaming</key>
+						<integer>1</integer>
+						<key>AuthenticationType</key>
+						<string>CHAP</string>
+						<key>DefaultProtocolMask</key>
+						<integer>1</integer>
+						<key>EnableXLAT464</key>
+						<true />
+						<key>Name</key>
+						<string>mcinet</string>
+					</dict>
+				</array>
+				<key>AttachAPN</key>
+				<dict>
+					<key>AllowedProtocolMask</key>
+					<integer>1</integer>
+					<key>AuthenticationType</key>
+					<string>CHAP</string>
+					<key>Name</key>
+					<string>mcinet</string>
+				</dict>
+				<key>PayloadDisplayName</key>
+				<string>Cellular</string>
+				<key>PayloadIdentifier</key>
+				<string>com.apple.cellular.1831a82e-8dcb-46e3-96ff-c2bad6bea28e</string>
+				<key>PayloadType</key>
+				<string>com.apple.cellular</string>
+				<key>PayloadUUID</key>
+				<string>2a6f5552-1a68-4862-af62-b9d46f54d162</string>
+				<key>PayloadVersion</key>
+				<integer>1</integer>
+			</dict>
+			</array>
+			<key>PayloadDescription</key>
+			<string>لطفا برای تثبیت آنتن حتما نکات ارسال شده رو چک کنید و رعایت کنید</string>
+			<key>PayloadDisplayName</key>
+			<string>تقویت آنتن آیفون</string>
+			<key>PayloadIdentifier</key>
+			<string>274994f8-4bbe-46ae-8774-43005de3a20e</string>
+			<key>PayloadOrganization</key>
+			<string>ما رو به دوستانتون معرفی کنید</string>
+			<key>PayloadType</key>
+			<string>Configuration</string>
+			<key>PayloadUUID</key>
+			<string>c0fb0a04-472d-4378-b169-859932f981fa</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>TargetDeviceType</key>
+			<integer>1</integer>
+		</dict>
+</plist>
